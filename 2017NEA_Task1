@@ -1,0 +1,18 @@
+print("League registration")
+def leagueReg():
+  firstname = input("Enter first name: >>> ")
+  nickname = input("Enter nickname: >>> ")
+  email = input("Enter email address: >>> ")
+  skill = input("Enter skill level- E for expert or C for casual: >>> ")
+  print("")
+  print("Please reveiew you details")
+  print("First name is",firstname)
+  print("Nickname is",nickname)
+  print("Email address is",email)
+  print("Skill level is",skill)
+leagueReg()
+check = str(input("please confirm that these details are correct- Y/N"))
+if check == Y:
+  print("Many thanks")
+else:
+  leagueReg()
